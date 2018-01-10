@@ -1,0 +1,139 @@
+::-webkit-scrollbar {
+    background: #141419;
+}
+::-webkit-scrollbar-thumb {
+    background: #2196f3;
+}
+body {
+    background: #1E1E23;
+}
+#buttons {
+    position: fixed;
+    top: 0;
+    right: 32px;
+    width: auto;
+    height: auto;
+    background: #141419;
+}
+.button {
+    margin: 5px;
+    background: #2196f3;
+    border: none;
+    width: 64px;
+    height: 32px;
+    color: #fff;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.button:hover {
+    background: #03a9f4;
+}
+.button:focus {
+    outline: none;
+}
+.title {
+    position: absolute;
+    color: #fff;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 32px;
+    top: 50px;
+    left: 50px;
+}
+#status {
+    padding: 30px;
+	color: red;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 16px;
+}
+.form {
+    width: 480px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 300px;
+    margin-left: calc(50% - 240px);
+    background: #141419;
+    border-radius: 10px;
+}
+.input {
+    color: #fff;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 16px;
+    background: #2196f3;
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.input:hover {
+    background: #03a9f4;
+}
+.input:focus {
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+}
+.login {
+    border: none;
+    color: #fff;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 16px;
+    background: #2196f3;
+    border-radius: 10px;
+    padding: 3px;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+.login:hover {
+    color: #fff;
+    background: #03a9f4;
+}
+.login:focus {
+    outline: none;
+}
+#consoleblock {
+    color: #fff;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 16px;
+}
+#cmdinput {
+    background: #141419;
+    border: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: calc(100% - 64px);
+    height: 32px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+#cmdinput:focus {
+    outline: none;
+}
+#cmdent {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 64px;
+    height: 32px;
+    background: #2196f3;
+    border: none;
+    color: #fff;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 14px;
+}
+#cmdent:hover {
+    background: #03a9f4;
+}
+#cmdent:focus {
+    outline: none;
+}
